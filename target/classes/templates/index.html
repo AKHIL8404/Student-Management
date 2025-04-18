@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f0f8ff;
+    }
+
+    .navbar {
+      background-color: #212529;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white;
+    }
+
+    .navbar-brand:hover,
+    .nav-link:hover {
+      color: #ffd700;
+    }
+
+    .content-section {
+      background-color: #343a40;
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+
+    .footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .section-title {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      color: #343a40;
+    }
+
+    .btn-login {
+      font-size: 18px;
+      padding: 12px 30px;
+    }
+
+    .container {
+      padding-bottom: 100px;
+    }
+
+    .about-section {
+      background-color: #e9ecef;
+      padding: 50px 0;
+    }
+
+    .services-card {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px 0;
+    }
+
+    .services-card h5 {
+      color: #007bff;
+    }
+
+    .contact-section {
+      background-color: #f1f1f1;
+      padding: 50px 0;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Premium Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GalaxyFC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div id="home" class="container text-center">
+    <h1 class="section-title">Welcome to GalaxyFC - Student Management</h1>
+    <p>Your go-to platform for managing students, performing CRUD operations like Create, Read, Update, and Delete student data with ease!</p>
+    <div class="content-section">
+  <p>Get started by accessing the student management system to efficiently view, add, edit, or delete student records.</p>
+  <a class="btn btn-primary btn-login" href="/students">Manage Students</a>
+</div>
+
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="text-center">GalaxyFC is a powerful student management system designed for educational institutions to manage their students' records efficiently. With our platform, you can quickly add, update, delete, and view student data, streamlining your administrative tasks.</p>
+      <p class="text-center">Whether you’re a school or university, GalaxyFC helps you keep everything organized and up-to-date, giving you more time to focus on what really matters: student success.</p>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services" class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="services-card">
+          <h5>Student Management</h5>
+          <p>Manage students' personal information, grades, and contact details all in one place. Create, update, and delete records easily.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="services-card">
+          <h5>CRUD Operations</h5>
+          <p>Easily Create, Read, Update, and Delete student data without any hassle, giving you full control over student records.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="services-card">
+          <h5>User-friendly Interface</h5>
+          <p>A simple and intuitive design makes it easy to manage and navigate through the system, even for non-tech-savvy users.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <p>&copy; 2025 Akhil | All Rights Reserved</p>
+    <p>Designed for educational institutions to manage student records and perform CRUD operations.</p>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (Popper.js and jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
