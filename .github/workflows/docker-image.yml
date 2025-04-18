@@ -27,5 +27,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ramos1817/studentmanagement:latest
+          tags: ramos1817/student-management:latest
           
