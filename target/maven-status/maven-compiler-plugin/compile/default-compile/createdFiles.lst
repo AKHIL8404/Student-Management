@@ -1,7 +1,0 @@
-com/base/sms/entity/Student.class
-com/base/sms/service/impl/StudentServiceImpl.class
-com/base/sms/StudentManagement1Application.class
-com/base/sms/repository/StudentRepository.class
-com/base/sms/exception/GlobalExceptionHandler.class
-com/base/sms/controller/StudentController.class
-com/base/sms/service/StudentService.class

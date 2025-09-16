@@ -1,7 +1,0 @@
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/StudentManagement1Application.java
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/controller/StudentController.java
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/entity/Student.java
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/exception/GlobalExceptionHandler.java
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/repository/StudentRepository.java
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/service/StudentService.java
-/storage/emulated/0/A1Projects/Student-Management/src/main/java/com/base/sms/service/impl/StudentServiceImpl.java
